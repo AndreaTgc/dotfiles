@@ -17,15 +17,17 @@ brew "yazi"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "gcc"
+brew "doxygen"
+brew "graphviz"
 
 # SECTION 2) GUI applications
-cask "kitty" 
-cask "zed"
-tap "d12frosted/emacs-plus"
-brew "emacs-plus@30" 
+cask "kitty"
+cask "librewolf"
+cask "lulu"
 
 # SECTION 3) Text editors
 brew "neovim"
+brew "kakoune"
 
 # SECTION 4) Programming languages and related utils (lsp and more)
 brew "LLVM" # LLVM infra and tools
@@ -55,6 +57,9 @@ brew "typst"
 
 # SECTION 5) Fonts
 cask "font-iosevka-nerd-font"
+cask "font-hack-nerd-font"
 
 # SECTION 6) Window managers and other utils
-cask "nikitabobko/tap/aerospace"
+cask "amethyst"
+brew "Felixkratz/formulae/sketchybar"
+brew "Felixkratz/formulae/borders"
